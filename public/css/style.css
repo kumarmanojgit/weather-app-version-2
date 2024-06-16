@@ -46,3 +46,45 @@ html{
     transform: rotate(360deg);
   }
 }
+
+
+/* main body */
+
+.main_header_left{
+  height: 70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main_header_left p{
+  font-size: 2rem;
+}
+.main_header_left h1{
+  font-size: 4rem;
+  margin: 1rem 0 4rem 0;
+  text-transform: capitalize;
+}
+.main_header_left .text-col{
+  color: var(--main-color);
+}
+.main_header_left button{
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.4rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px black;
+}
+.main_header_left button:hover{
+  box-shadow: 0 8px 6px -6px blue;
+}
+
+
+.main_header_right{
+  height: 70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
