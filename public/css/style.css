@@ -93,7 +93,9 @@ body{
   justify-content: center;
   align-items: flex-start;
 }
-
+ .main_header_right figure img{
+  filter: drop-shadow(0 0.5rem 1rem rgba(0 0 0 0.3));
+ }
 
 /* footer */
  footer{
